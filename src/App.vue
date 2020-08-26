@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="header">
-      <h1>我是父亲组件：{{muNum}}</h1>
+      <h3>我是父亲组件：{{muNum}}</h3>
       <span
         v-for="(item,index) in navList"
         :key="item.id"

@@ -1,6 +1,6 @@
 <template>
     <div>
-        我是课程详情页面！
+        <h4>我是课程详情页面！</h4>
         <p v-for="(question,index) in questionList" :key="question.id">{{question.name}}</p>
     </div>
 </template>

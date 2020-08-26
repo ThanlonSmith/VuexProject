@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>我是Course组件：{{muNum}}</h1>
+    <h3>我是Course组件：{{muNum}}</h3>
     <div class="categoryList">
       <ul>
         <li
